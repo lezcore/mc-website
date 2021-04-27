@@ -12,23 +12,23 @@
         <a href="#" class="logo">MC</a>
         <div class="toggle"></div>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Trabajos</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#courses">Cursos</a></li>
+            <li><a href="#testimonial">Testimonios</a></li>
             <li><a href="#">Equipo</a></li>
-            <li><a href="#">Testimonios</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
     </header>
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="textBx">
             <h2>Hola, mi nombre es<br><span>Migdonio Carlos.</span></h2>
             <h3>Me dedico a ayudar a las personas en su sanación espiritual,<br> llevándolos a sentirse plenos con ellos mismos.</h3>
-            <a href="#" class="btn">Sobre mí</a>
+            <a href="#about" class="btn">Sobre mí</a>
         </div>
     </section>
-    <section class="about">
+
+    <section class="about" id="about">
         <div class="heading">
             <h2>Sobre Mí</h2>
         </div>
@@ -43,7 +43,8 @@
             </div>
         </div>
     </section>
-    <section class="services">
+
+    <section class="services" id="services">
         <div class="heading white">
             <h2>Mis Servicios</h2><br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a veniam dolor asperiores! Sit, deserunt aliquid asperiores vel impedit consectetur natus corporis</p>
@@ -81,6 +82,50 @@
             </div>
         </div>
     </section>
+
+    <section class="courses" id="courses">
+        <div class="heading">
+            <h2>Cursos</h2><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis a veniam dolor asperiores! Sit, deserunt aliquid asperiores vel impedit consectetur natus corporis</p>
+        </div>
+        <div class="content">
+            <div class="coursesBx">
+                <img src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="curso1">
+            </div>
+            <div class="coursesBx">
+                <img src="https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="curso2">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonios</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magnam doloremque provident mollitia, ad officiis pariatur ducimus recusandae culpa veritatis, accusamus illum ullam. Est, aliquam perferendis vitae dignissimos numquam quibusdam.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo laudantium ipsum in corrupti doloremque, at accusamus consectetur dolor itaque excepturi architecto vero sunt quidem, repellendus ab magnam aliquam nesciunt.</p>
+                <h3>Testimonio 1<br><span>Servicio</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo laudantium ipsum in corrupti doloremque, at accusamus consectetur dolor itaque excepturi architecto vero sunt quidem, repellendus ab magnam aliquam nesciunt.</p>
+                <h3>Testimonio 2<br><span>Servicio</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo laudantium ipsum in corrupti doloremque, at accusamus consectetur dolor itaque excepturi architecto vero sunt quidem, repellendus ab magnam aliquam nesciunt.</p>
+                <h3>Testimonio 3<br><span>Servicio</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo laudantium ipsum in corrupti doloremque, at accusamus consectetur dolor itaque excepturi architecto vero sunt quidem, repellendus ab magnam aliquam nesciunt.</p>
+                <h3>Testimonio 4<br><span>Servicio</span></h3>
+            </div>
+        </div>
+    </section>
+
     <script type="text/javascript">
         window.addEventListener('scroll', function(){
             var header = document.querySelector('header');
